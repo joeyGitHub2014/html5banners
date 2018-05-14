@@ -1,0 +1,68 @@
+
+#canvas 
+{
+	/*background: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+ 	aimation: fadeInOut  infinite ease-out 10s;*/
+
+}
+#orange, #orange2, #purple, #blue, #magenta1, #magenta2,  #yellowGreen {
+	width: 970px;
+	height: 250px;
+	position: absolute; 
+	left: 0px; top: 0px; 
+	display: block;
+}
+#skyLine{
+	position: absolute; 
+	left: 0px; top: 26px; 
+ }
+#orange2 {
+	background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+ }
+
+#orange {
+	background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+ }
+#purple{
+	background: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+#blue{
+	background: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+}
+
+#magenta1 {
+	background: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+}
+#magenta2 {
+	background: linear-gradient( 135deg, #FFF3B0 10%, #CA26FF 100%);
+}
+
+#yellowGreen {
+		background: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+}
+
+@keyframes fadeInOut {
+
+	0% {
+		background: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+   	}
+	20% {
+		background: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+	}
+	40% {
+		background: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+	}
+	60% {
+		background: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+ 	}
+	80% {
+		background: linear-gradient( 135deg, #FFF3B0 10%, #CA26FF 100%);
+	}
+	100% {
+		background: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+  
+	}
+}
+
+ 
+
